@@ -12,8 +12,12 @@ int main(void)
 	{
 		putchar(alpha);
 		alpha++;
-		putchar(toupper(alpha));
 	}
+	while (alpha <= 'z')
+        {
+                putchar(toupper(alpha));
+                alpha++;
+        }
 	putchar('\n');
 	return (0);
 }
