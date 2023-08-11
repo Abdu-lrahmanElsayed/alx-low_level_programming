@@ -8,10 +8,20 @@ int main(void)
 {
 	int alpha = 'a';
 	/*var*/
-	while ('e' > alpha > 'e' || 'q' > alpha > 'q' && alpha <= 'z')
+	if (alpha < 'e')
 	{
 		putchar(alpha);
 		alpha++;
+	}
+	else if (alpha < 'q')
+	{
+		putchar(alpha);
+                alpha++;
+	}
+	else if (alpha <= 'z')
+	{
+		putchar(alpha);
+                alpha++;
 	}
 	putchar('\n');
 	return (0);
