@@ -13,12 +13,12 @@ int main(void)
 		putchar(alpha);
 		alpha++;
 	}
-	int Alpha = 'A';
+	int upper = 'A';
 	/*var then print*/
-	while (Alpha <= 'Z')
+	while (upper <= 'Z')
         {
-                putchar(Alpha);
-                Alpha++;
+                putchar(upper);
+                upper++;
         }
 	putchar('\n');
 	return (0);
