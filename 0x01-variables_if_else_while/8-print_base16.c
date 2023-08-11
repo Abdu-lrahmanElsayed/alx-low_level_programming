@@ -1,3 +1,4 @@
+#include<ctype.h>
 #include<stdio.h>
 /**
  *main - print nums
@@ -9,7 +10,7 @@ int main(void)
 	/*var*/
 	while (i < 16)
 	{
-		putchar(i + '0');
+		putchar(tolower(i) + '0');
 		i++;
 	}
 	putchar('\n');
