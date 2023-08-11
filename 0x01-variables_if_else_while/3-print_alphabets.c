@@ -10,7 +10,8 @@ int main(void)
 	/*var then print*/
 	while (alpha <= 'z')
 	{
-		putchar(alpha + toupper(alpha));
+		putchar(alpha);
+		putchar(toupper(alpha));
 		alpha++;
 	}
 	putchar('\n');
