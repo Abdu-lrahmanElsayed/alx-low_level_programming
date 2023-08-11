@@ -6,13 +6,12 @@
  */
 int main(void)
 {
-	int i = 'A';
+	int i = 'a';
 	/*var then while loop*/
-	while (i <= 'Z')
+	while (i <= 'z')
 	{
-		i = tolower(i);
 		putchar(i);
-		++i;
+		i++;
 	}
 	return (0);
 }
