@@ -7,15 +7,14 @@
 int main(void)
 {
 	int alpha = 'a';
+	int pit = 'A';
 	/*var then print*/
 	while (alpha <= 'z')
 	{
 		putchar(alpha);
 		alpha++;
 	}
-	int pit = 'A';
-	/*var*/
-	while (pit <= 'Z')
+      	while (pit <= 'Z')
 	{
 		putchar(pit);
 		pit++;
