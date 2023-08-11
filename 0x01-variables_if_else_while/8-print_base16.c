@@ -10,7 +10,14 @@ int main(void)
 	/*var*/
 	while (i < 16)
 	{
-		putchar(tolower(i) + '0');
+		if (i < 10)
+		{
+			putchar(i + '0');
+		}
+		else
+		{
+			putchar (i - 10 + '0')
+		}
 		i++;
 	}
 	putchar('\n');
