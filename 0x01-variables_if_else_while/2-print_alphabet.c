@@ -10,7 +10,7 @@ int main(void)
 	/*var then while loop*/
 	while (i <= 'z')
 	{
-		putchar(i);
+		putchar(i\n);
 		i++;
 	}
 	return (0);
