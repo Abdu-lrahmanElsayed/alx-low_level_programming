@@ -8,17 +8,7 @@ int main(void)
 {
 	int alpha = 'a';
 	/*var*/
-	if (alpha < 'e')
-	{
-		putchar(alpha);
-		alpha++;
-	}
-	else if (alpha < 'q')
-	{
-		putchar(alpha);
-                alpha++;
-	}
-	else if (alpha <= 'z')
+	if (alpha <= 'z' && alpha < 'e' || alpha < 'q')
 	{
 		putchar(alpha);
                 alpha++;
