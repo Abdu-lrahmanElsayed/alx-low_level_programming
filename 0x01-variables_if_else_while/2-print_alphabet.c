@@ -1,4 +1,3 @@
-#include<ctype.h>
 #include<stdio.h>
 /**
  *main - prints in lowercase
@@ -12,7 +11,7 @@ int main(void)
 	{
 		i = tolower(i);
 		putchar(i);
-		i = i + 1;
+		++i;
 	}
 	return (0);
 }
