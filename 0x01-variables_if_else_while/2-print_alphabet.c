@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	char A;
-	A = "UPPERCASE";
-	A = tolower(A);
-	putchar(A);
+	for (int i = 'A'; i <= 'z'; i++)
+	{
+		putchar(tolower(i));
+	}
 	return (0);
 }
