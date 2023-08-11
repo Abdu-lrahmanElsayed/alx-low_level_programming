@@ -8,7 +8,7 @@ int main(void)
 {
 	int alpha = 'a';
 	/*var*/
-	while ('e' > alpha > 'e' && 'q' > alpha > 'q' && alpha <= 'z')
+	while ('e' > alpha > 'e' || 'q' > alpha > 'q' && alpha <= 'z')
 	{
 		putchar(alpha);
 		alpha++;
