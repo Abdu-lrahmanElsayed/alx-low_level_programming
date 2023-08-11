@@ -7,6 +7,7 @@ int main(void)
 {
 	char A;
 	A = "UPPERCASE";
-	putchar(tolower(A));
+	A = tolower(A);
+	putchar(A);
 	return (0);
 }
