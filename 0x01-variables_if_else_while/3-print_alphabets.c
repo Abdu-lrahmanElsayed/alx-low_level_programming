@@ -13,6 +13,13 @@ int main(void)
 		putchar(alpha);
 		alpha++;
 	}
+	int pit = 'A';
+	/*var*/
+	while (pit <= 'Z')
+	{
+		putchar(pit);
+		pit++;
+	}
 	putchar('\n');
 	return (0);
 }
