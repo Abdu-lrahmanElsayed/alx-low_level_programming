@@ -7,11 +7,12 @@
 int main(void)
 {
 	int i = 'A';
+	/*var then while loop*/
 	while (i <= 'Z')
 	{
 		i = tolower(i);
 		putchar(i);
-		i++;
+		i = i + 1;
 	}
 	return (0);
 }
