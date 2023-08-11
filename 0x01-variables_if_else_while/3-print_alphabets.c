@@ -8,9 +8,9 @@ int main(void)
 {
 	int alpha = 'a';
 	/*var then print*/
-	while (alpha <= 'Z')
+	while (alpha <= 'z')
 	{
-		putchar(alpha);
+		putchar(alpha + toupper(alpha));
 		alpha++;
 	}
 	putchar('\n');
