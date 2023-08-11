@@ -6,9 +6,11 @@
  */
 int main(void)
 {
-	for (int i = 'A'; i <= 'z'; i++)
+	int i = 'A';
+	while (i <= 'Z')
 	{
-		putchar(tolower(i));
+		i = tolower(i);
+		putchar(i);
+		i++;
 	}
-	return (0);
 }
