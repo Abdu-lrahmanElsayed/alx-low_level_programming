@@ -16,7 +16,7 @@ int main(void)
 		}
 		else
 		{
-			putchar (i - 10 + '0')
+			putchar (i - 10 + 'a')
 		}
 		i++;
 	}
