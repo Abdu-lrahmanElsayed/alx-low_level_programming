@@ -9,7 +9,7 @@ int main(void)
 	/*var*/
 	while (i < 90)
 	{
-		putchar(i + '0');
+		putchar(i + '0' + '0');
 		if (i < 89)
 		{
 			putchar(',');
