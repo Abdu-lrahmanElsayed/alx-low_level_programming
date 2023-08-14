@@ -12,10 +12,8 @@ int main(void)
 	/*var*/
 	while (i <= 9)
 	{
-		j = i + 1;
 		while (j <= 8)
 		{
-			k = j + 1;
 			while (k <= 9)
 			{
 				l = k + 1;
