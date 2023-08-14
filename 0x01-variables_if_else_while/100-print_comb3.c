@@ -6,14 +6,21 @@
 int main(void)
 {
 	int i = 0;
+	int j = 0;
 	/*var*/
-	while (i < 90)
+	while (i <= 9)
 	{
-		putchar(i + '0' + '0');
-		if (i < 89)
+		j = i + 1;
+		while (j <= 9)
 		{
-			putchar(',');
-			putchar(' ');
+			putchar (i + '0');
+			putchar (j + '0');
+			if (i > 8 && j > 9)
+			{
+				putchar (',');
+				putchar (' ');
+			}
+			j++;
 		}
 		i++;
 	}
