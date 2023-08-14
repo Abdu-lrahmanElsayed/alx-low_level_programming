@@ -8,14 +8,16 @@ int main(void)
 	int i = 0;
 	int j = 0;
 	int k = 0;
-	int l = 1;
+	int l = 0;
 	/*var*/
 	while (i <= 9)
 	{
 		while (j <= 8)
 		{
+			k = j + 1;
 			while (k <= 9)
 			{
+				l = k + 1;
 				while (l <= 9)
 				{
 					putchar (i + '0');
