@@ -8,7 +8,7 @@ int main(void)
 	int i = 0;
 	int j = 0;
 	int k = 0;
-	int l = 0;
+	int l = 1;
 	/*var*/
 	while (i <= 9)
 	{
@@ -16,7 +16,6 @@ int main(void)
 		{
 			while (k <= 9)
 			{
-				l = k + 1;
 				while (l <= 9)
 				{
 					putchar (i + '0');
