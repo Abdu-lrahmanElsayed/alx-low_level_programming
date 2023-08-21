@@ -5,8 +5,6 @@
  */
 int main(void)
 {
-	char p = "_putchar";
-	/*char var to print using putchar*/
-	printf(p'\n');
+	printf("_putchar\n");
 	return (0);
 }
