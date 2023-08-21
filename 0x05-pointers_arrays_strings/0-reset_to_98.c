@@ -1,11 +1,9 @@
 #include "main.h"
 /**
  *reset_to_98 - update the value to 98
- *pointer n integer
  *Reaturn: *n value;
  */
-void reset_to_98(int *n)
+void reset_to_98(int *n)/*integer pointer n*/
 {
-	/*integer ponter n*/
-	*n = 98;
+       	*n = 98;
 }
