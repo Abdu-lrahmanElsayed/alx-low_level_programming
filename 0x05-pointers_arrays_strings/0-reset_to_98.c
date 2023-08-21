@@ -3,7 +3,7 @@
  *reset_to_98 - update the value to 98
  *Reaturn: *n value;
  */
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
 	*n = 98;
 }
