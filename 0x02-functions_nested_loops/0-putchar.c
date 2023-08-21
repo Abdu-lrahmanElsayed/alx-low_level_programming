@@ -8,6 +8,6 @@ int main(void)
 {
 	char p = "_putchar";
 	/*char var to print using putchar*/
-	printf(p);
+	printf(p'\n');
 	return (0);
 }
