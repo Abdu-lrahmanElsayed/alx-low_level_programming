@@ -6,5 +6,6 @@
  */
 void reset_to_98(int *n)
 {
+	/*integer ponter n*/
 	*n = 98;
 }
