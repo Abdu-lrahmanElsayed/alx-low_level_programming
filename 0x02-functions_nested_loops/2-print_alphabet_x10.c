@@ -11,12 +11,13 @@ void print_alphabet_x10(void)
 	while (j < 10)
 	{
 		int i = 'a';
-                /*var then while loop*/
+		/*int var for alphabets*/
 		while (i <= 'z')
 		{
 			putchar(i);
 			i++;
 		}
+		putchar('\n');
 		j++;
 	}
 	putchar('\n');
