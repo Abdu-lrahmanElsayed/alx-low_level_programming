@@ -2,7 +2,7 @@
 #include<stdio.h>
 /**
  *print_sign - prints sign for a num
- *@n: input 
+ *@n: input
  *Return: 1, 0 or -1
  */
 int print_sign(int n)
@@ -10,14 +10,14 @@ int print_sign(int n)
 	if (n > 0)
 	{
 		return (1);
-		printf("+");
+		printf("%c", '+');
 	}
 	else if (n == 0)
 	{
 		return (0);
-		printf("0");
+		printf("%c", '0');
 	}
 	else
 		return (-1);
-	printf("-");
+	printf("%c", '-');
 }
