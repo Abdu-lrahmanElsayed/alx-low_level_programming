@@ -9,8 +9,8 @@ int print_sign(int n)
 {
 	if (n > 0)
 	{
-		printf("%c", '+');
 		return (1);
+		printf("%c", '+');
 	}
 	else if (n == 0)
 	{
