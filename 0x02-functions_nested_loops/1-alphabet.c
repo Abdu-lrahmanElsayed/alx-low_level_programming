@@ -2,7 +2,7 @@
 #include<stdio.h>
 /**
  * print_alphabet - prints alphabets
- * Return: Always 0.
+ * Return: alphabets.
  */
 void print_alphabet(void)
 {
@@ -14,5 +14,4 @@ void print_alphabet(void)
 		i++;
 	}
 	putchar('\n');
-	return (0);
 }
