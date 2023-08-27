@@ -1,0 +1,23 @@
+#include "main.h"
+#include<stdio.h>
+/**
+ *2-print_alphabet_x10.c - prints alphabets 10 times
+ *Return: alphabets
+ */
+void print_alphabet_x10(void)
+{
+	int j = 0;
+	/*int var for print n times*/
+	while (j < 10)
+	{
+		int i = 'a';
+                /*var then while loop*/
+		while (i <= 'z)
+		{
+			putchar(i);
+			i++;
+		}
+		j++;
+	}
+	putchar('\n');
+}
