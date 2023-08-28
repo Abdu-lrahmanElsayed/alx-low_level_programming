@@ -5,9 +5,9 @@
  *print_last_digit - '_'
  *Return: ld
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 	int ld;
-	ld = int % 10;
+	ld = n % 10;
 	printf("%d", ld);
 }
