@@ -8,5 +8,5 @@
  */
 int _abs(int n)
 {
-	printf("%u", int);
+	printf("%u", n);
 }
