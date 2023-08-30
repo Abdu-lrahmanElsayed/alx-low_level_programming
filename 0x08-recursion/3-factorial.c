@@ -21,11 +21,7 @@ int factorial(int n)
 	}
 	else
 	{
-		while (i <= n)
-		{
-			j = j * i;
-			i++;
-		}
+		j = j * i;
 		return (j);
 	}
 }
