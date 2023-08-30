@@ -18,7 +18,7 @@ int _pow_recursion(int x, int y)
 	{
 		int i;
                 /*powerd result*/
-		i = pow(x,y);
+		i = x^y;
 		return (i);
 	}
 }
