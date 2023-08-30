@@ -16,9 +16,12 @@ int factorial(int n)
 		return (-1);
 	}
 	int j = 1;
-	for (int i = 1; i <= n; i++)
+	int i = 1;
+	/*var to get fac*/
+	while (i <= n)
 	{
 		j = j * i;
+		i++;
 	}
 	return (j);
 }
