@@ -7,10 +7,6 @@
  */
 int factorial(int n)
 {
-	int i, j;
-	/*var to get fac*/
-	i = 1;
-	j = 1;
 	if (n == 0)
 	{
 		return (1);
@@ -21,7 +17,6 @@ int factorial(int n)
 	}
 	else
 	{
-		j = j * i;
-		return (j);
+		return (n * factorial (n - 1));
 	}
 }

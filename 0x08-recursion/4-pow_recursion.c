@@ -13,12 +13,12 @@ int _pow_recursion(int x, int y)
 	{
 		return (-1);
 	}
-	else
-
+	else if (y == 0)
 	{
-		double i;
-		/*pow*/
-		i = pow(double(x),double(y));
-		return (i);
+		return (1);
+	}
+	else
+	{
+		return (x * _pow_recursion(x, y - 1));
 	}
 }
