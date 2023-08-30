@@ -7,9 +7,6 @@
  */
 void _puts_recursion(char *s)
 {
-	while (*s)
-	{
-		printf("%c\n", *s);
-		s++;
-	}
+	printf("%c\n", *s);
+	s++;
 }
