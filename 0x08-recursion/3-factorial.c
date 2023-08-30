@@ -7,21 +7,25 @@
  */
 int factorial(int n)
 {
+	int i, j;
+	/*var to get fac*/
+	i = 1;
+	j = 1;
        	if (n == 0)
 	{
 		return (1);
 	}
-	if (n < 0)
+	else if (n < 0)
 	{
 		return (-1);
 	}
-	int k = 1;
-	int i = 1;
-	/*var to get fac*/
-	while (i <= n)
+	else
 	{
-		k = k * i;
-		i++;
+		while (i <= n)
+		{
+			j = j * i;
+			i++;
+		}
+		return (j);
 	}
-	return (k);
 }
