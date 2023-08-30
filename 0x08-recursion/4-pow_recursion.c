@@ -3,8 +3,7 @@
 #include<math.h>
 /**
  *_pow_recursion - x powered by y
- *@x: integer input 
- *@y: input power
+ *@x: integer input ,@y: integer input
  *Return: the result
  */
 int _pow_recursion(int x, int y)
