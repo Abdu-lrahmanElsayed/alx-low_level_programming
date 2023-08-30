@@ -7,11 +7,7 @@
  */
 int factorial(int n)
 {
-	//int i ,j;
-	/*variabls for fac*/
-	//i = 1;
-	//j = 1;
-	if (n == 0)
+       	if (n == 0)
 	{
 		return (1);
 	}
