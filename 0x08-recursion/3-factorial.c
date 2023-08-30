@@ -11,7 +11,7 @@ int factorial(int n)
 	/*var to get fac*/
 	i = 1;
 	j = 1;
-       	if (n == 0)
+	if (n == 0)
 	{
 		return (1);
 	}
