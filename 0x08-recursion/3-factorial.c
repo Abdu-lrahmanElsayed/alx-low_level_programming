@@ -15,13 +15,13 @@ int factorial(int n)
 	{
 		return (-1);
 	}
-	int j = 1;
+	int k = 1;
 	int i = 1;
 	/*var to get fac*/
 	while (i <= n)
 	{
-		j = j * i;
+		k = k * i;
 		i++;
 	}
-	return (j);
+	return (k);
 }
