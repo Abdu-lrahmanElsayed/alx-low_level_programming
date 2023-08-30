@@ -15,4 +15,10 @@ int factorial(int n)
 	{
 		return (-1);
 	}
+	int j = 1;
+	for (int i = 1; i <= n; i++)
+	{
+		j = j * i;
+	}
+	return (j);
 }
