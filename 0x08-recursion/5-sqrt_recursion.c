@@ -14,8 +14,6 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		double s;
-		s = pow(double(n), 1/2);
-		return (s);
+		return (n);
 	}
 }
