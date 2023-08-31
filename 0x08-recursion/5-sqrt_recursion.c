@@ -8,12 +8,14 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n % n != 0 || n < 0)
+	if (n < 0)
 	{
 		return (-1);
 	}
 	else
 	{
-		return (n / n);
+		int s;
+		s = pow(double(n), 1/2);
+		return (s);
 	}
 }
