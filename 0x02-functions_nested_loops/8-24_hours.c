@@ -13,18 +13,18 @@ void jack_bauer(void)
 	/*int var for time*/
 	while (i < 3)
 	{
-		putchar(i + '0');
+		_putchar(i + '0');
 		while (j < 10)
 		{
-			putchar(j + '0');
-			putchar(':');
+			_putchar(j + '0');
+			_putchar(':');
 			while (k < 6)
 			{
-				putchar(k + '0');
+				_putchar(k + '0');
 				while (l < 10)
 				{
-					putchar(l + '0');
-					putchar('\n');
+					_putchar(l + '0');
+					_putchar('\n');
 					++l;
 				}
 				++k;
