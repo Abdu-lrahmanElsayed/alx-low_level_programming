@@ -1,16 +1,15 @@
 #include "main.h"
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * _isupper - checks if the letter is upper or lower
+ *@c: input
+ * Return: 1 or 0.
  */
-int main(void)
+int _isupper(int c)
 {
-    char c;
-    /*char var for c*/
-    c = 'A';
-    printf("%c: %d\n", c, _isupper(c));
-    c = 'a';
-    printf("%c: %d\n", c, _isupper(c));
+  if ('A' <=c>= 'Z')
+    {
+      return (1);
+    }
+  else
     return (0);
 }
