@@ -11,9 +11,15 @@ int print_last_digit(int n)
 	int ld;
 	/*variable to git last digit*/
 	if (n < 0)
-	  ld = -1 * (n % 10);
+	  {
+	    ld = -1 * (n % 10);
+	    _putchar(ld + '0');
+	    return (ld);
+	  }
 	else
-	  ld = n % 10;
-	_putchar(ld + '0');
-	return (ld);
+	  {
+	    ld = n % 10;
+	    _putchar(ld + '0');
+	    return (ld);
+	  }
 }
