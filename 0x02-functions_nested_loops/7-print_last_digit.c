@@ -13,11 +13,11 @@ int print_last_digit(int n)
 	if (n < 0)
 	{
 		ld = -n % 10;
-		_putchar("%d", ld);
+		printf("%d", ld);
 		return (ld);
 	}
 	else
 		ld = n % 10;
-	_putchar("%d", ld);
+	printf("%d", ld);
 	return (ld);
 }
