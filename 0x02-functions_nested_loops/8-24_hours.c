@@ -28,17 +28,17 @@ void jack_bauer(void)
 					if (l > 9)
 						k++;
 					else
-						continue;
+						break;
 				}
 				if (k > 5)
 					j++;
 				else
-					continue;
+					break;
 			}
 			if (j > 9)
 				i++;
 			else
-				continue;
+				break;
 		}
 		l++;
 	}
