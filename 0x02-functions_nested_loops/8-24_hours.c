@@ -25,7 +25,6 @@ void jack_bauer(void)
 				{
 					_putchar(l + '0');
 					_putchar('\n');
-					++l;
 					if (l > 9)
 						k++;
 				}
@@ -35,5 +34,6 @@ void jack_bauer(void)
 			if (j > 9)
 				i++;
 		}
+		l++;
 	}
 }
