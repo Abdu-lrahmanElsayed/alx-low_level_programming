@@ -4,22 +4,22 @@
 /**
  *print_last_digit - '_'
  *@n: input
- *Return: ld
+ *Return: id
  */
 int print_last_digit(int n)
 {
-	int ld;
+	int id;
 
 	if (n < 0)
 	{
-	  ld = -1 * (n % 10);
-	  _putchar(ld + '0');
-	  return (ld);
+		id = -1 * (n % 10);
+		_putchar(id + '0');
+		return (id);
 	}
 	else
 	{
-	  ld = n % 10;
-	  _putchar(ld + '0');
-	  return (ld);
+		id = n % 10;
+		_putchar(id + '0');
+		return (id);
 	}
 }
