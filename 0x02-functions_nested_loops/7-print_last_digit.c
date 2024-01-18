@@ -9,7 +9,7 @@
 int print_last_digit(int n)
 {
 	int ld;
-	/*variable to git last digit*/
+
 	if (n < 0)
 	{
 	  ld = -1 * (n % 10);
