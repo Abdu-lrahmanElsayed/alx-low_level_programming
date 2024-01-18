@@ -27,12 +27,18 @@ void jack_bauer(void)
 					_putchar('\n');
 					if (l > 9)
 						k++;
+					else
+						continue;
 				}
 				if (k > 5)
 					j++;
+				else
+					continue;
 			}
 			if (j > 9)
 				i++;
+			else
+				continue;
 		}
 		l++;
 	}
