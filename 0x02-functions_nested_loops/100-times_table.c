@@ -8,20 +8,23 @@ void print_times_table(int n)
 {
 	int line_num,i,j;
 
-	for (line_num = 0; line_num < n; line_num++)
+	if (n < 15 && n > 0)
 	{
-		_putchar('0');
-		for (i = 1; i <= 9; i++)
+		for (line_num = 0; line_num < n; line_num++)
 		{
-			_putchar(',');
-			_putchar(' ');
-			j = i * line_num;
-			if (j <= 9)
+			_putchar('0');
+			for (i = 1; i <= 9; i++)
+			{
+				_putchar(',');
 				_putchar(' ');
-			else
-				_putchar((j / 10) + '0');
-			_putchar((j % 10) + '0');
+				j = i * line_num;
+				if (j <= 9)
+					_putchar(' ');
+				else
+					_putchar((j / 10) + '0');
+				_putchar((j % 10) + '0');
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
