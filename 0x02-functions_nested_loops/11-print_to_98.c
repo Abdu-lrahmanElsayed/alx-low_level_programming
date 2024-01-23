@@ -16,18 +16,18 @@ void print_to_98(int n)
 			_putchar(' ');
 			i++;
 		}
-		_putcahr('\n');
+		_putchar('\n');
 	}
 	else if (n > 98)
 	{
 		while (i >= 98)
 		{
 			printf("%d", i);
-			_putcahr(',');
+			_putchar(',');
 			_putchar(' ');
 			i--;
 		}
-		_putcahr('\n');
+		_putchar('\n');
 	}
 	else
 	{
