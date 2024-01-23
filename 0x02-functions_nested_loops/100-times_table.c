@@ -1,19 +1,19 @@
 #include<stdio.h>
 #include "main.h"
 /**
- * void print_times_table - prints the n times table, starting with 0.
+ * print_times_table - prints the n times table, starting with 0.
  * @n: lines number
  */
 void print_times_table(int n)
 {
-	int line_num,i,j;
+	int line_num, i, j;
 
 	if (n < 15 && n > 0)
 	{
 		for (line_num = 0; line_num < n; line_num++)
 		{
 			_putchar('0');
-			for (i = 1; i <= 9; i++)
+			for (i = 1; i < n; i++)
 			{
 				_putchar(',');
 				_putchar(' ');
