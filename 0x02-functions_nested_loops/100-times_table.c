@@ -18,9 +18,9 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 				j = i * line_num;
-				if (j <= 9)
+				if (j <= 9 || j <= 99)
 					_putchar(' ');
-				else if (j >= 100)
+				if (j >= 100)
 				{
 					_putchar((j / 100) + '0');
 					_putchar((j / 10) + '0');
