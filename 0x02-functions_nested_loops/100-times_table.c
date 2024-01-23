@@ -21,15 +21,8 @@ void print_times_table(int n)
 				if (j <= 9)
 					_putchar(' ');
 				else
-				{
 					_putchar((j / 10) + '0');
-					_putchar((j % 10) + '0');
-					if (j <= 99)
-						_putchar(' ');
-					else
-						_putchar((j / 10) + '0');
-					_putchar((j % 10) + '0');
-				}
+				_putchar((j % 10) + '0');
 			}
 			_putchar('\n');
 		}
