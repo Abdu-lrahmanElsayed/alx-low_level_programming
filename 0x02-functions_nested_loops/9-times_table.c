@@ -7,21 +7,21 @@
 void times_table(void)
 {
 	int i = 1;
-	int j, _i;
+	int line_num, d_i;
 
-	for (j = 0; j < 10; j++)
+	for (line_num = 0; line_num < 10; line_num++)
 	{
 		_putchar('0');
 		while (i <= 9)
 		{
 			_putchar(',');
 			_putchar(' ');
-			_i = i * j;
-			if (_i <= 9)
+			d_i = i * line_num;
+			if (d_i <= 9)
 				_putchar(' ');
 			else
-				_putchar((_i / 10) + '0');
-			_putchar((_i % 10) + '0');
+				_putchar((d_i / 10) + '0');
+			_putchar((d_i % 10) + '0');
 			i++;
 		}
 		_putchar('\n');
