@@ -6,13 +6,12 @@
  */
 void times_table(void)
 {
-	int i = 1;
-	int line_num, d_i;
+	int i, line_num, d_i;
 
 	for (line_num = 0; line_num < 10; line_num++)
 	{
 		_putchar('0');
-		while (i <= 9)
+		for (i = 1; i <= 9; i++)
 		{
 			_putchar(',');
 			_putchar(' ');
@@ -22,7 +21,6 @@ void times_table(void)
 			else
 				_putchar((d_i / 10) + '0');
 			_putchar((d_i % 10) + '0');
-			i++;
 		}
 		_putchar('\n');
 	}
