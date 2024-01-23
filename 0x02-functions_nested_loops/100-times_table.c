@@ -8,7 +8,7 @@ void print_times_table(int n)
 {
 	int line_num, i, j;
 
-	if (n < 15 && n > 0)
+	if (n <= 15 && n >= 0)
 	{
 		for (line_num = 0; line_num <= n; line_num++)
 		{
@@ -18,11 +18,15 @@ void print_times_table(int n)
 				_putchar(',');
 				_putchar(' ');
 				j = i * line_num;
-				if (j <= 9 || j <= 99)
+				if (j <= 9)
 					_putchar(' ');
 				else
+				{
+					if (j <== 99)
+						_putchar(' ');
 					_putchar((j / 10) + '0');
-				_putchar((j % 10) + '0');
+					_putchar((j % 10) + '0');
+				}
 			}
 			_putchar('\n');
 		}
