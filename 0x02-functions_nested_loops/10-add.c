@@ -2,13 +2,13 @@
 #include "main.h"
 /**
  * add - adds two integers and returns the result.
- * @int: input num
- * @int: input num
+ * @a: input num
+ * @b: input num
  * Return: The result of sum
  */
-int add(int, int)
+int add(int a, int b)
 {
-	int a,b,sum;
+	int sum;
 
 	sum = a + b;
 	return (sum);
