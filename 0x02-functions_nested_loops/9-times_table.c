@@ -6,15 +6,19 @@
  */
 void times_table(void)
 {
-	int i = 0;
-	int j;
+	int i = 1;
+	int j, _i;
 
 	for (j = 0; j < 10; j++)
 	{
+		_putcahr('0');
 		while (i <= 9)
 		{
-			_putchar(i + j + '0');
 			_putchar(',');
+			_putchar(' ');
+			_i = i * j;
+			_putchar((_i / 10) + '0');
+			_putchar((_i % 10) + '0');
 			i++;
 		}
 		_putchar('\n');
