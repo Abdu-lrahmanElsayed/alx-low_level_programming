@@ -22,9 +22,10 @@ void print_times_table(int n)
 					_putchar(' ');
 				else
 				{
-					if (j <== 99)
+					if (j <= 99)
 						_putchar(' ');
-					_putchar((j / 10) + '0');
+					else
+						_putchar((j / 10) + '0');
 					_putchar((j % 10) + '0');
 				}
 			}
