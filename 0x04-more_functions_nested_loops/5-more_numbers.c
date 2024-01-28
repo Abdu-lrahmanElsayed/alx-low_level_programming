@@ -6,12 +6,10 @@
 void more_numbers(void)
 {
 	int i, j, k;
-	i = 0;
 
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 	{
-		j = 0;
-		while (j <= 14)
+		for (j = 0; j <= 14; j++)
 		{
 			j = k;
 			if (k > 9)
@@ -20,9 +18,7 @@ void more_numbers(void)
 				j = k % 10;
 			}
 			_putchar(j + '0');
-			j++;
 		}
 		_putchar('\n');
-		i++;
 	}
 }
