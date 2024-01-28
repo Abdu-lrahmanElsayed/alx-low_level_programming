@@ -2,8 +2,6 @@
 
 /**
  * more_numbers - prints 10 times the nums from 0 to 14 followed by a new line.
- *
- * Return: nums.
  */
 void more_numbers(void)
 {
@@ -18,7 +16,7 @@ void more_numbers(void)
 			_putchar(j + '0');
 			j++;
 		}
-		printf('\n');
+		_putchar('\n');
 		i++;
 	}
 }
