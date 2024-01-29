@@ -7,7 +7,8 @@
 
 void _puts(char *str)
 {
-	char mystr[] = *str;
+	char s = *str;
+	char mystr[] = s;
 
 	fprintf(stdout,"%s",mystr);
 	putchar('\n');
