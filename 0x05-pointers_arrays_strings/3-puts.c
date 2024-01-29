@@ -12,8 +12,9 @@ void _puts(char *str)
 	for (length = 0; *str != '\0'; str++)
 		++length;
 
-	char mystr[length] = *str;
+	char mystr[length];
 
+	mystr = *str;
 	fprintf(stdout,"%s",mystr);
 	putchar('\n');
 }
