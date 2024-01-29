@@ -7,7 +7,13 @@
 
 void _puts(char *str)
 {
-	char mystr[] = *str;
+	int length;
+
+	for (length = 0; *s != '\0'; s++)
+		++length;
+
+	char mystr[length] = *str;
+
 	fprintf(stdout,"%s",mystr);
 	putchar('\n');
 }
