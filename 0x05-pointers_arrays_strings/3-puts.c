@@ -9,7 +9,7 @@ void _puts(char *str)
 {
 	int length;
 
-	for (length = 0; *s != '\0'; s++)
+	for (length = 0; *str != '\0'; str++)
 		++length;
 
 	char mystr[length] = *str;
