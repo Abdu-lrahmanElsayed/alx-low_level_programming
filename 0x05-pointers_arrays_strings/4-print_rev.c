@@ -14,12 +14,6 @@ void print_rev(char *s)
 			--s;
 			putchar(*s);
 		}
-		else
-		{
-			s--;
-			putchar(*s);
-		}
-
 	}
 	putchar('\n');
 }
