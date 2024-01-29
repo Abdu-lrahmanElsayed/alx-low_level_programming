@@ -7,10 +7,8 @@
 
 void _puts(char *str)
 {
-	char mystr[];
+	char mystr[] = str;
 
-	if (strtr)
-		mystr = str;
 	fprintf(stdout,"%s",mystr);
 	putchar('\n');
 }
