@@ -7,13 +7,14 @@
 
 void print_rev(char *s)
 {
-	while (*s != '\0')
+	int length, i;
+
+	for (length = 0; *s != '\0'; s++)
+		++length;
+	i = length - 1;
+	while (i >= 0)
 	{
-		if (*s == '\0')
-		{
-			s--;
-			putchar(*s);
-		}
+			printf("%c", s[i]);
 	}
 	putchar('\n');
 }
