@@ -11,7 +11,7 @@ void print_rev(char *s)
 	{
 		if (*s == '\0')
 		{
-			--s;
+			s--;
 			putchar(*s);
 		}
 	}
