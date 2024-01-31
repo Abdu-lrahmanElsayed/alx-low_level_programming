@@ -4,14 +4,14 @@
  * *_strcat: adds array2 to array1
  * @dest: input string
  * @src: input string
- * Return: new dest
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int i, j;
+	int j;
+	int i = 0;
 
-	i = 0;
 	while(dest[i])
 		i++;
 	for (j = 0; src[j]; j++)
