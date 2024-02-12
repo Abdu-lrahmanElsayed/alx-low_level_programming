@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * natural_3_5 - prints the sum of all the multiples of 3 or 5 below 1024.
+ * main - prints the sum of all the multiples of 3 or 5 below 1024.
+ *
+ * Return: 0.
  */
 
-void natural_3_5(void)
+int main(void)
 {
 	int i = 0;
 	int sum;
@@ -21,4 +23,5 @@ void natural_3_5(void)
 	}
 	_putchar(sum + '0');
 	_putchar('\n');
+	return(0);
 }
