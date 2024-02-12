@@ -15,13 +15,10 @@ int main(void)
 	{
 		sum = 0;
 
-		if (i % 3 != 0 || i % 5 != 0)
+		if ((i % 3 != 0) || (i % 5 != 0))
 			sum += i;
-		else
-			continue;
 		i++;
 	}
-	_putchar(sum + '0');
-	_putchar('\n');
-	return(0);
+	printf("%d\n", sum);
+	return (0);
 }
