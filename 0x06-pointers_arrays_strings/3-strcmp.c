@@ -11,7 +11,7 @@ int _strcmp(char *s1, char *s2)
 {
 	int c;
 
-	c = (int)*s1 - (int)*s2;
+	c = ((int)*s1 - 48) - ((int)*s2 - 48);
 	return (c);
 
 }
