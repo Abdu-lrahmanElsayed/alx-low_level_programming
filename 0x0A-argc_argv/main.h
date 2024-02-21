@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MANI_H
 
-#include<strio.h>
+#include<stdio.h>
 
 int _putchar(char c);
 int main(int argc, char *argv[]);
