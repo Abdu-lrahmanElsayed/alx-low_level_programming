@@ -9,16 +9,18 @@
 char *_strdup(char *str)
 {
 	char *newStr;
-	int i;
+	int i, j;
 
 	if (str == NULL)
 	{
 		return (NULL);
 	}
-	newStr = malloc(sizeof(*str) + 1);
 	for (i = 0; str[i] != '\0'; i++)
+		;
+	newStr = malloc(sizeof(*str) + 1);
+	for (j = 0; j < i; j++)
 	{
-		newStr[i] = str[i];
+		newStr[j] = str[j];
 	}
 	return (newStr);
 }
