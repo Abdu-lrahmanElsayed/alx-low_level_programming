@@ -1,0 +1,5 @@
+CC = gcc
+SRCS = main.c school.c
+.PHONY: all school
+all: school
+	${CC} ${SRCS} -o school
