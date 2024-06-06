@@ -12,3 +12,7 @@ oclean:
 	${RM} -f *~ $(SRC:.c=.o)
 fclean: clean oclean
 re: oclean all
+test:
+	if [ -e m.h ]; then
+		false
+	fi
